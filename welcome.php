@@ -13,11 +13,6 @@ session_start();
         <link href="footer.css" rel="stylesheet" type="text/css"/>
         <title>Welcome</title>
 
-
-
-
-
-
         <style>
 
             .form{border-radius:10px ;
@@ -77,20 +72,16 @@ session_start();
                 background: radial-gradient(white, gray, black);
                 height: 47px;
                 width:224px;
-                 
+
             }
             p{
                 color: white;
             }
-
         </style>
     </head>
 
     <body>
         <header class="header">
-
-
-
             <div>       
                 <marquee>
                     <script type="text/javascript">
@@ -109,7 +100,6 @@ session_start();
                     </script>
                 </marquee>  
             </div> 
-
             <div class="divlogo">
                 <img class="divlogo" src="Untitled-3.png" alt="logo"/>
             </div>
@@ -117,7 +107,6 @@ session_start();
             <div class="ddd">
                 <nav>   
                     <ul>
-
                         <li id='li'><a href="welcome.php">Home</a></li>
                         <li id='li' class="dropdown">
                             <a class="dropbtn">Account</a>
@@ -129,37 +118,26 @@ session_start();
                         <li id='li'><a href="News.php">News</a></li>
                         <li id='li'><a href="About_Us2.php">About Us</a></li>
                         <li id='li'><a href="Feedback1.php">Connect Us</a></li>
-
-
                     </ul>
                 </nav>
             </div>
         </header>
-
-
-
-
-
-
-
-
-
 
     <center>
         <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/q56D3N7NqlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         </div>
         <h1> Universities of the beautiful future</h1>
-        
-        
+
+
         <div class="parent">
             <div style="right:2%" class="child">
                 <cneter style="right:50%">
-                    
-                   <a href="http://www.istanbul.edu.tr/_"> <div style="right:0%"class="child2 show"><img  style="border-radius:10px " src="1.jpeg" width="220" height="220" alt=""/><p>Istanbul University</p></div></a>
-                   <a href="http://www.itu.edu.tr/"><div style="right:25%"class="child2 show"><img style="border-radius:10px " src="2.jpeg" width="220" height="220" alt=""/><p>Istanbul Teknik University</p></div></a>
-                   <a href="http://www.sakarya.edu.tr/"> <div style="right:50%"class="child2 show"><img style="border-radius:10px " src="3.jpeg" width="220" height="220" alt=""/><p>Sakarya University</p></div></a>
-                   <a href="https://www.metu.edu.tr/tr"> <div style="right:75%"class="child2 show"><img style="border-radius:10px " src="4.jpeg" width="220" height="220" alt=""/><p>Orta Dogu Teknik University</p></div></a>
+
+                    <a href="http://www.istanbul.edu.tr/_"> <div style="right:0%"class="child2 show"><img  style="border-radius:10px " src="1.jpeg" width="220" height="220" alt=""/><p>Istanbul University</p></div></a>
+                    <a href="http://www.itu.edu.tr/"><div style="right:25%"class="child2 show"><img style="border-radius:10px " src="2.jpeg" width="220" height="220" alt=""/><p>Istanbul Teknik University</p></div></a>
+                    <a href="http://www.sakarya.edu.tr/"> <div style="right:50%"class="child2 show"><img style="border-radius:10px " src="3.jpeg" width="220" height="220" alt=""/><p>Sakarya University</p></div></a>
+                    <a href="https://www.metu.edu.tr/tr"> <div style="right:75%"class="child2 show"><img style="border-radius:10px " src="4.jpeg" width="220" height="220" alt=""/><p>Orta Dogu Teknik University</p></div></a>
                 </cneter>
 
             </div>
@@ -174,10 +152,6 @@ session_start();
 
             </div>
         </div>
-
-
-
-
     </center>
 
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

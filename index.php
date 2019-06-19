@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
-<?php
-            session_start();?>
+<?php session_start(); ?>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -69,16 +68,10 @@ and open the template in the editor.
     </head>
 
     <body>
-
-
         <header class="header">
-
-
-
             <div>       
                 <marquee>
                     <script type="text/javascript">
-
                         var name;
                         var now = new Date();
                         var hour = now.getHours();
@@ -88,12 +81,9 @@ and open the template in the editor.
                         else
                             document.write("<h2> good afternoon <em>");
                         document.write(name + "</em> welcome to my page</h2> ");
-
-
                     </script>
                 </marquee>  
             </div> 
-
             <div class="divlogo">
                 <img class="divlogo" src="Untitled-3.png" alt="logo"/>
             </div>
@@ -101,7 +91,6 @@ and open the template in the editor.
             <div class="ddd">
                 <nav>   
                     <ul>
-
                         <li id='li'><a href="index.php">Home</a></li>
                         <li id='li' class="dropdown">
                             <a class="dropbtn">Account</a>
@@ -112,8 +101,6 @@ and open the template in the editor.
                         </li>
                         <li id='li'><a href="About_Us.xhtml">About Us</a></li>
                         <li id='li'><a href="Feedback2.php">Connect US</a></li>
-
-
                     </ul>
                 </nav>
             </div>
@@ -122,12 +109,10 @@ and open the template in the editor.
 
 
         <div class="h">
-
-
             <?php
             require_once "db.php";
             session_destroy();
-            
+
             if (!empty(isset($_POST['username'])) && !empty(isset($_POST['password'])) && !empty(isset($_POST['email']))) {
                 if (!empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['email'])) {
                     $n = $_POST['username'];
@@ -150,11 +135,7 @@ if ($_POST['login'])
     header("Location:LogIn.php");
 ?>
             </script>
-
             <div>
-
-
-
                 <div >
                     <center > 
                         <h1>Welcome to your best choice to study in Turkey</h1>
@@ -191,7 +172,7 @@ if ($_POST['login'])
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                         <input style="border-radius:10px" type="submit" name="submit"  value="Create user"/>
+                                        <input style="border-radius:10px" type="submit" name="submit"  value="Create user"/>
                                     </td>
                                 </tr>
                             </form> 
@@ -204,7 +185,6 @@ if ($_POST['login'])
                     </div>
                 </center>
             </div>
-
         </div>
 
 

@@ -1,27 +1,27 @@
-                .header {
-                        background-image:  url("background.jpg");
-                        position: relative;
-                        width: 100%;
-                        top:0px;
-                        height:360px;
-                        
-                                              
-                  }
-                    .divlogo{
-                      position:absolute;
-                      width: 75%;
-                      padding-left:100px;
-/*                      right: 200px;*/
-                      height:350px;
-                      top:0px;
-                      
-                  }
-                  .ddd{
-                     
-                      position:absolute;
-                      width: 100%;
-                      padding: 10px;
-                      bottom: 2%;
-                      
-                      
-                  }
+.header {
+    background-image:  url("background.jpg");
+    position: relative;
+    width: 100%;
+    top:0px;
+    height:360px;
+
+
+}
+.divlogo{
+    position:absolute;
+    width: 75%;
+    padding-left:100px;
+    /*                      right: 200px;*/
+    height:350px;
+    top:0px;
+
+}
+.ddd{
+
+    position:absolute;
+    width: 100%;
+    padding: 10px;
+    bottom: 2%;
+
+
+}
